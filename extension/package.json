@@ -14,11 +14,10 @@
     "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@types/chrome": "^0.0.213",
-    "@types/node": "^18.11.18",
+    "@types/chrome": "^0.3.7",
+    "@types/node": "^26.6.6",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
-    "build": "^0.1.4",
     "eslint": "^8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -26,13 +25,11 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "openai": "^4.10.0",
+    "openai": "^7.57.0",
     "prettier": "^2.8.4",
-    "rollup-plugin-copy": "^3.5.0",
-    "terser": "^5.16.1",
-    "tesseract.js": "^5.0.2",
-    "typescript": "^4.9.4",
-    "vite": "^4.0.4",
-    "vite-plugin-static-copy": "^0.17.0"
+    "terser": "^5.51.2",
+    "tesseract.js": "^7.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
   }
 }
